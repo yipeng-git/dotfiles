@@ -1,9 +1,16 @@
+" basic
+set encoding=utf-8
+
+" looks
 syntax on
 set number
-set cursorline
-set wrap
-set showcmd
-set wildmenu
 set showmatch
-set ruler
-set smartindent
+
+" searching
+set hlsearch
+set incsearch
+set wildmenu
+
+" indentation
+filetype plugin indent on
+
